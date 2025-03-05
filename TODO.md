@@ -1,9 +1,12 @@
 ## Todo List:
- - [ ] Update Footer link/image to match new color
- - [ ] Change yellow accent to olive
+ - [X] Update Footer link/image to match new color
+ - [X] Change yellow accent to olive
  - [ ] Create static resume for site and add it from link
- - [ ] Remove Blog from Navbar and add Homelab section 
- - [ ] Move social platforms from bottom to under name
+ - [X] Remove Blog from Navbar
+ - [ ] Add Homelab section 
+ - [X] Move social platforms from bottom to under name
  - [ ] Fix favicon.ico file 
- - [ ] Make sure webassets section works
- - [ ] Update the metatags
+ - [ ] Make sure webassets file works
+ - [X] Update the metatags
+ - [ ] Move the headers on later section to the left
+ - [ ] Make sure to test everything in both dark and light mode
