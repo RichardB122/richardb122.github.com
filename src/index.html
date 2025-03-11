@@ -132,7 +132,10 @@
       	<h2>About</h2>
       	<div class="about-container">
 	  <img src="assets/about_picture.jpg" alt="About Image" class="about-image" />
-          <p class="about-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor fringilla quisque montes augue vulputate tellus diam. Id lacus ridiculus massa semper velit euismod etiam imperdiet maecenas. Egestas nostra nisi ridiculus conubia tellus tempus vestibulum litora? Malesuada est volutpat rhoncus inceptos urna facilisis. Molestie curabitur vehicula ad mauris nec hendrerit gravida duis. Maecenas tincidunt vitae nulla fames ligula placerat! Ex vestibulum fames elementum maecenas ut ante class.</p>
+          <div class="about-text">
+            <p>Hello, I'm Richard. I work as a Backend Systems Engineer in financial messaging. When it comes to programming, I’m especially interested in writing performant yet human-readable code, security, and distributed systems. I also enjoy contributing to projects on GitHub when I can and have been dabbling in front-end development to round out my skill set.</p>
+            <p>Outside of tech, I keep busy with a mix of hobbies—long-distance running (getting back to it after some post-marathon downtime), making way-too-strong AeroPress coffee, and squeezing in the occasional backpacking trip when I get the chance. I also have a habit of tinkering with my home server setup and Docker containers just for fun.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -149,37 +152,54 @@
       <div class="content-text">
         <h3>SWIFT (Global Financial Messaging Network for International Payments)</h3>
         <p><i>2020 - Present</i> | <i>Hybrid</i></p>
+        <div class="bullet-list">
+          <ul>
+            <li>Implemented and tested a high-performance Kafka producer in containerized instances (using Kafka and Docker) written in Java, capable of processing thousands of transactions per second at peak with fast and strong scalability and resilience in production.</li>
+            <li>Led the modernization of a legacy internal web application, migrating to a React frontend and a Python backend that resolved long-standing technical debt, improved performance, and enhanced the user experience. Ultimately, this resulted in over 80% less support tickets for our team and our internal users were much happier.</li>
+            <li>Served as the lead developer in modernizing and qualifying a Java-based message non-repudiation and signature verification system, collaborating with multiple developers to drive implementation, define development priorities, and shape testing strategies.</li>
+            <li>Mentored interns during two summer programs, providing technical guidance and career development advice.</li>
+            <li>Assisted in evaluating and interviewing candidates for both intern and full-time roles helping identify strong candidates who aligned with team needs and company culture.</li>
+            <li>Enhanced and maintained an internal test automation tool, improving efficiency in running nightly regression tests across hundreds of scenarios, reducing manual intervention and accelerating release cycles.</li>
+          </ul>
+        </div>
       </div>
       <div class="content-text">
         <h3>Freelance Software Developer</h3>
-	<p><i>2015 - 2020</i> | <i>Remote</i></p>
+        <p><i>2015 - 2020</i> | <i>Remote</i></p>
+        <div class="bullet-list">
+          <ul>
+            <li>Developed custom plugins and websites for clients primarily working in Java, PHP and MySQL and managing the full the project from design to deployment.</li>
+            <li>Worked on more than 10 projects while in high school and college.</li>
+          </ul>
+        </div>
       </div>
-      <article class="project">
-        <!-- Project 1 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-            </div>
+      <div id="project-list">
+        <h3>Pilot Training Simulation - Subscription and Billing System</h3>
+        <article class="project">
+          <!-- Project 1 -->
+          <div href="https://www.pilotapproach.com" class="card">
+            <div class="project-info">
+              <div class="project-bio">
+              </div>
 
-            <div class="project-link">
-              <a href="https://www.pilotapproach.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+              <div class="project-link">
+                <a href="https://www.pilotapproach.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div>
-          <h3>Pilot Training Simulation - Subscription and Billing System</h3>
-            <p><a href="https://www.pilotapproach.com/" target="_blank" rel="noopener noreferrer">pilotapproach.com</a> - <i>2021</i></p>
-	    <p><i>Stack: PHP, Laravel, Stripe API</i></p><br />
-
-            <div class="bullet-list">
-              <ul>
-                <li>Designed and implemented a complete subscription and billing system for a flight simulation training application in collaboration with a colleague.</li>
-                <li>Integrated Stripe for secure and efficient online payment processing, ensuring seamless transactions for users.</li>
-              </ul>
-	      <br />
-            </div>
-        </div>
-      </article>
+          <div>
+              <p><a href="https://www.pilotapproach.com/" target="_blank" rel="noopener noreferrer">pilotapproach.com</a> - <i>2021</i></p>
+          <p><i>Stack: PHP, Laravel, Stripe API</i></p><br />
+              <div class="bullet-list">
+                <ul>
+                  <li>Designed and implemented a complete subscription and billing system for a flight simulation training application in collaboration with a colleague.</li>
+                  <li>Integrated Stripe for secure and efficient online payment processing, ensuring seamless transactions for users.</li>
+                </ul>
+            <br />
+              </div>
+          </div>
+        </article>
+      </div>
     </section>
 
     <!-- Homelab -->
@@ -187,7 +207,9 @@
       <div class="division"></div>
       <div class="content-text">
         <h2>Homelab</h2>
-        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Auctor fringilla quisque montes augue vulputate tellus diam. Id lacus ridiculus massa semper velit euismod etiam imperdiet maecenas. Egestas nostra nisi ridiculus conubia tellus tempus vestibulum litora? Malesuada est volutpat rhoncus inceptos urna facilisis. Molestie curabitur vehicula ad mauris nec hendrerit gravida duis. Maecenas tincidunt vitae nulla fames ligula placerat! Ex vestibulum fames elementum maecenas ut ante class.</p>
+        <p>My homelab has been a rewarding hobby for several years, allowing me to explore the world of hardware, data protection, and containerization. It simply started with wanting to have network attached storage but has grown into a creative outlet where I can experiment with new tools and systems.</p>
+        <p>One of the challenges I've faced is working with a somewhat limited space and budget, which has pushed me to work to optimize more and choose what I want to prioritize. I have enjoyed trying to find cost-effective solutions for self-hosting and am always looking for practical applications that add value. This work has not only been fun but has also helped me deepen my understanding of both the software and hardware sides of system administration.</p>
+        <p>At some point I hope to begin documenting more of my homelab setup on GitHub.</p>
       </div>
     </section>
 

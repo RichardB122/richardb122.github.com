@@ -1,7 +1,7 @@
 ## Todo List:
  - [X] Update Footer link/image to match new color
  - [X] Change yellow accent to olive
- - [ ] Create static resume for site and add it from link
+ - [X] Create static resume for site and add it from link
  - [X] Remove Blog from Navbar
  - [X] Add Homelab section 
  - [X] Move social platforms from bottom to under name
@@ -12,4 +12,5 @@
  - [ ] Make sure to test everything in both dark and light mode
  - [ ] Make sure everything is responsive
  - [ ] Run a linter over the HTML
-
+ - [ ] Fix LinkedIn and GitHub buttons not adapting to dark mode
+ - [ ] Add a picture of Homelab
