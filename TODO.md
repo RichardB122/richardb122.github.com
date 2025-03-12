@@ -9,8 +9,8 @@
  - [ ] Make sure webassets file works
  - [X] Update the metatags
  - [X] Move the headers on later section to the left
- - [ ] Make sure to test everything in both dark and light mode
- - [ ] Make sure everything is responsive
+ - [X] Make sure to test everything in both dark and light mode
+ - [X] Make sure everything is responsive
  - [ ] Run a linter over the HTML
  - [ ] Fix LinkedIn and GitHub buttons not adapting to dark mode
- - [ ] Add a picture of Homelab
+ - [X] Add a picture of Homelab

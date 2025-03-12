@@ -43,6 +43,14 @@
   --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 }
 
+[data-theme="dark"] {
+
+  .social-container .btn img {
+    filter: invert(1);
+  }
+
+}
+
 html {
   font-size: 100%;
   scroll-behavior: smooth;
@@ -349,9 +357,29 @@ body {
 
 .about-text {
   flex: 1;
+  text-align: left;
 }
 
 .about-image {
+  width: 40%; /* Image takes up 40% of the container */
+  max-width: 300px; /* Prevents it from getting too big */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.homelab-container {
+  display: flex;
+  align-items: start;
+  gap: 20px; /* Space between image and text */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.homelab-text {
+  flex: 1;
+  text-align: left;
+}
+
+.homelab-image {
   width: 40%; /* Image takes up 40% of the container */
   max-width: 300px; /* Prevents it from getting too big */
   height: auto; /* Maintains aspect ratio */

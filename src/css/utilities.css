@@ -173,4 +173,14 @@ h2::selection {
     width: 80%; /* Make image larger for better visibility */
     max-width: 100%;
   }
+
+  .homelab-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .homelab-image {
+    width: 80%; /* Make image larger for better visibility */
+    max-width: 100%;
+  }
 }
