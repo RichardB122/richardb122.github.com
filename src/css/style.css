@@ -230,7 +230,7 @@ body {
   justify-content: center;
   color: #ffffff;
   min-height: 160px;
-  text-align: center;
+  line-height: 1.75
 }
 
 #footer a {
