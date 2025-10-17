@@ -82,15 +82,9 @@
           <!-- Navbar links -->
           <ul class="nav-menu">
             <li><a class="nav-link" href="#about">ABOUT</a></li>
-            <li><a class="nav-link" href="#projects">PROJECTS/EXPERIENCE</a></li>
+            <li><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
             <li><a class="nav-link" href="#homelab">HOMELAB</a></li>
-            <li>
-              <a
-                class="nav-link btn btn-primary"
-                href="/assets/richardbimmer_resume_2025.pdf"
-                >RESUME <i class="fas fa-arrow-right"></i
-              ></a>
-            </li>
 
             <!-- Toggle switch -->
             <div class="theme-switch">
@@ -126,7 +120,6 @@
 
     <!-- About -->
     <section id="about" class="container left-aligned-container">
-      <div class="division"></div>
       <div class="content-text">
       	<h2>About</h2>
       	<div class="about-container">
@@ -139,39 +132,37 @@
       </div>
     </section>
 
+    <!-- Experience -->
+    <section id="experience" class="project-container container left-aligned-container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Experience</h2>
+      </div>
+      <div id="experience-list">
+	      <div class="content-text">
+		<h3><a href="https://www.swift.com" target="_blank" rel="noopener noreferrer">SWIFT (Global Financial Messaging Network for International Payments)</a></h3>
+		<p style="font-style: italic; color: #777; display: block; margin-top: 0.2em; margin-left: 0.15em;"><i>June 2020 - Present</i> | <i>Hybrid</i></p>
+		<h3 class="job-position">Systems Engineer<span class="job-dates">Jan 2022 - Present</span></h3>
+		<p>I work on both modernizing existing and building new production backend services in Java, helping guide implementation priorities, testing strategies, and collaborating across distributed teams. I’ve designed and deployed high-throughput Kafka components that process thousands of events per second with strong reliability and scalability.<br /><br />
+
+I also support modernization initiatives across the stack, including migrating legacy applications to React and Python-based architectures to improve usability and reduce maintenance overhead. Beyond development, I’ve mentored interns and helped facilitate hackathon projects to support team learning and growth.</p>
+		<h3 class="job-position">Associate Systems Engineer<span class="job-dates">June 2020 - Jan 2022</span></h3>
+		<p>Developed foundational experience in software testing, automation, and infrastructure for production backend services. Contributed to improving release reliability through manual and automated testing, enhanced Jenkins pipelines, updated Ansible playbooks, and supported a C++ application in active deployment.</p>
+	      </div>
+	      <div class="content-text">
+		<h3>Freelance Software Developer</h3>
+		<p style="font-style: italic; color: #777; display: block; margin-top: 0.2em; margin-left: 0.15em;"><i>2015 - 2020</i> | <i>Remote</i></p>
+		<p>While balancing high school and college studies, I worked directly with clients to plan, build, and deliver full-stack web solutions. I developed custom plugins and dynamic websites using Java, PHP, and MySQL, keeping clients updated throughout the process from initial requirements to final deployment. Over time, I completed more than ten client projects, each one sharpening my ability to translate technical work into real-world results.</p>
+	      </div>
+	</div>
+    </section>
+
 
     <!-- Projects -->
     <section id="projects" class="project-container container left-aligned-container">
       <div class="division"></div>
       <div class="content-text">
-        <h2>Projects and Experience</h2>
-      </div>
-
-      <br />
-      <div class="content-text">
-        <h3><a href="https://www.swift.com" target="_blank" rel="noopener noreferrer">SWIFT (Global Financial Messaging Network for International Payments)</a></h3>
-        <p><i>2020 - Present</i> | <i>Hybrid</i></p>
-        <div class="bullet-list">
-          <ul>
-            <li>Implemented and tested a high-performance Kafka producer in containerized instances (using Kafka and Docker) written in Java, capable of processing thousands of transactions per second at peak with fast and strong scalability and resilience in production</li>
-            <li>Led the modernization of a legacy internal web application, migrating to a React frontend and a Python backend that resolved long-standing technical debt, improved performance, and enhanced the user experience. Ultimately, this resulted in over 80% less support tickets for our team and our internal users were much happier</li>
-            <li>Served as the lead developer in modernizing and qualifying a Java-based message non-repudiation and signature verification system, collaborating with multiple developers to drive implementation, define development priorities, and shape testing strategies./li>
-            <li>Mentored interns during two summer programs, providing technical guidance and career development advice</li>
-            <li>Assisted in evaluating and interviewing candidates for both intern and full-time roles helping identify strong candidates who aligned with team needs and company culture</li>
-            <li>Enhanced and maintained an internal test automation tool, improving efficiency in running nightly regression tests across hundreds of scenarios, reducing manual intervention and accelerating release cycles</li>
-          </ul>
-        </div>
-      </div>
-      <div class="content-text">
-        <h3>Freelance Software Developer</h3>
-        <p><i>2015 - 2020</i> | <i>Remote</i></p>
-        <div class="bullet-list">
-          <ul>
-	    <li>Worked directly with clients to gather requirements, provide progress updates, and deliver full‑stack solutions</li>
-	    <li>Developed custom plugins and websites using Java, PHP, and MySQL</li>
-	    <li>Completed 10+ client projects while balancing high school and college studies</li>
-          </ul>
-        </div>
+        <h2>Projects</h2>
       </div>
       <div id="project-list">
         <h3>Pilot Training Simulation - Subscription and Billing System</h3>
@@ -232,3 +223,4 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+
